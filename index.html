@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=	, initial-scale=1.0">
+    <title>Fashion Driven</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="menusuperior">
+            <div class="logo">
+                <img src="/imagens/Logo.png" alt="">
+            </div>
+            <div class="usuario">
+                
+            </div>
+        </div>
+        <div class="conteudo"> 
+            <div class="esquerda">
+                <div class="confirmacao hidden">
+                    
+                </div>
+                <div class="areapedido">
+                    <div class="modeloblusa">
+                        <div class="modelo">
+                            <p>Escolha o modelo</p>
+                            <div class="modelos">
+                                <div class="tshirt" onclick="selecionarmodelo(this)" id="t-shirt">
+                                    <img src="/imagens/logotshirt.png" alt="">
+                                    <p>T-shirt</p>
+                                </div>
+                                <div class="tshirt" onclick="selecionarmodelo(this)" id="top-tank">
+                                    <img src="/imagens/logovestido.png" alt="">
+                                    <p>Camiseta</p>
+                                </div>
+                                <div class="tshirt" onclick="selecionarmodelo(this)" id="long">
+                                    <img src="/imagens/logomanga.png" alt="">
+                                    <p>Manga longa</p>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div> 
+                    <div class="golablusas">
+                        <div class="modelo">
+                            <p>Escolha a gola</p>
+                            <div class="modelos">
+                                <div class="tshirt2" onclick="selecionargola(this)" id="v-neck">
+                                    <img src="/imagens/GolaV.png" alt="">
+                                    <p>Gola V</p>
+                                </div>
+                                <div class="tshirt2" onclick="selecionargola(this)" id="round">
+                                    <img src="/imagens/golanormal.png" alt="">
+                                    <p>Gola redonda</p>
+                                </div>
+                                <div class="tshirt2" onclick="selecionargola(this)" id="polo">
+                                    <img src="/imagens/GolaPolo.png" alt="">
+                                    <p>Gola polo</p>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div> 
+                    <div class="materialblusas">
+                        <div class="modelo">
+                            <p>Escolha o tecido</p>
+                            <div class="modelos">
+                                <div class="tshirt3" onclick="selecionartecido(this)" id="silk">
+                                    <img class="imggola" src="/imagens/Seda.png" alt="">
+                                    <p>Seda</p>
+                                </div>
+                                <div class="tshirt3" onclick="selecionartecido(this)" id="cotton">
+                                    <img class="imggola" src="/imagens/algodao.png" alt="">
+                                    <p>Algodão</p>
+                                </div>
+                                <div class="tshirt3" onclick="selecionartecido(this)" id="polyester">
+                                    <img class="imggola" src="/imagens/Poliester.png" alt="">
+                                    <p>Poliéster</p>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div> 
+
+                    <div class="imagem">
+                        <p>Imagem de referência</p>
+                        <input type="text" class="imagemlink" placeholder="Insira o link" oninput="verificaselecao()">
+                    </div>
+                    <button class="botao" type="button" onclick="inserirPedido()" disabled>Confirmar pedido</button>
+
+                </div>
+            </div>  
+            <div class="direita">
+                <img src="/imagens/ilustração.png" alt="">
+            </div>  
+        </div>
+        <div class="menuinferior">
+            <p class="tituloinferior">Últimos pedidos</p>
+            <div class="filtros">
+                <div class="todosmodelos selecionado2" onclick="filtrartodos(this)" >Todos os modelos</div>
+                <div class="filtrotshirt" onclick="filtrartshirt(this)">T-shirt</div>
+                <div class="filtrocamiseta" onclick="filtrarcamiseta(this)">Camiseta</div>
+                <div class="filtromanga" onclick="filtrarlong(this)">Manga longa</div>
+            </div>
+            <div class="pedidos">
+                <div class="divpedido">
+                    <img src="/imagens/Blusa1.png" alt="">
+                    <p><span class="criador">Criador: </span>Agata</p>
+                </div>
+                <div class="divpedido">
+                    <img src="/imagens/Blusa1.png" alt="">
+                    <p><span class="criador">Criador: </span>Agata</p>
+                </div>
+                <div class="divpedido">
+                    <img src="/imagens/Blusa1.png" alt="">
+                    <p><span class="criador">Criador: </span>Agata</p>
+                </div>
+                <div class="divpedido">
+                    <img src="/imagens/Blusa1.png" alt="">
+                    <p><span class="criador">Criador: </span>Agata</p>
+                </div>
+                <div class="divpedido">
+                    <img src="/imagens/Blusa1.png" alt="">
+                    <p><span class="criador">Criador: </span>Agata</p>
+                </div>
+                <div class="divpedido">
+                    <img src="/imagens/Blusa1.png" alt="">
+                    <p><span class="criador">Criador: </span>Agata</p>
+                </div>
+                <div class="divpedido">
+                    <img src="/imagens/Blusa1.png" alt="">
+                    <p><span class="criador">Criador: </span>Agata</p>
+                </div>
+                <div class="divpedido">
+                    <img src="/imagens/Blusa1.png" alt="">
+                    <p><span class="criador">Criador: </span>Agata</p>
+                </div>
+                <div class="divpedido">
+                    <img src="/imagens/Blusa1.png" alt="">
+                    <p><span class="criador">Criador: </span>Agata</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

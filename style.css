@@ -1,0 +1,492 @@
+
+
+.menusuperior {
+    position: fixed;
+    width: 100%;
+    height: 89px;
+    left: 0px;
+    top: 0px;
+    background: #404EED;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 53px;
+}
+
+.logo {
+    
+    width: 339.23px;
+    height: 56.64px;
+    
+}
+
+
+
+.usuario {
+    
+    width: 248px;
+    height: 39px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* identical to box height */
+
+
+color: #232323;
+}
+
+.selecionado {
+    border: 3px solid #404EED;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.selecionado1 {
+    border: 3px solid #404EED;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.filtros .selecionado2 {
+    background:#404EED;
+    
+}
+
+.conteudo {
+    
+    height: 764px;
+    width: 100%;
+    padding-top: 89px;
+    display: flex; 
+}
+
+.esquerda {
+    
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmacao {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pedidorealizado {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 15px;
+    color: #232323;
+    }
+
+.confirmacao img {
+    width: 435px;
+    height: 523px;
+    margin-bottom: 18px;
+}
+
+.aviso {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #404EED;
+    width: 255px;
+    height: 42px;
+
+}
+
+.aviso1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #404EED;
+    width: 354px;
+    height: 37px;
+    margin-bottom: 37px;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.areapedido {
+    
+    width: 400.35px;
+    height: 706.36px;
+}
+
+.modelo {
+    width: 385px;
+    height: 158.88px;
+    margin-bottom: 31px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #232323;
+
+}
+
+.modelos {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.tshirt {
+    
+    height: 129.3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+/* identical to box height */
+
+
+color: #232323;
+}
+
+.tshirt2 {
+    
+    height: 129.3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+/* identical to box height */
+
+
+color: #232323;
+}
+
+.tshirt3 {
+    
+    height: 129.3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+/* identical to box height */
+
+
+color: #232323;
+}
+
+.tshirt p {
+    margin-top: 8px;
+}
+
+.tshirt img {
+    width: 80px;
+    height: 80px;
+}
+
+.tshirt2 p {
+    margin-top: 8px;
+}
+
+.tshirt2 img {
+    width: 80px;
+    height: 80px;
+}
+
+.tshirt3 p {
+    margin-top: 8px;
+}
+
+.tshirt3 img {
+    width: 80px;
+    height: 80px;
+}
+
+.direita {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #404EED;
+
+
+    
+}
+
+.direita img {
+    width: auto;
+    height: auto;
+}
+
+.imagem {
+    width: 396.27px;
+    height: 70.27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+/* identical to box height */
+
+
+color: #232323;
+margin-bottom: 24px;
+
+}
+
+.imagem p {
+    margin-bottom: 9px;
+}
+
+.imagemlink {
+    width: 396.27px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #F2F2F2;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+color: #818181;
+
+}
+
+.botao {
+    width: 398.61px;
+    height: 40px;
+    background: #C4C4C4;
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    border: none;
+    color: #FCFCFC;
+}
+
+.botao.avancar {
+    background-color: #404EED;
+    border: none;
+    cursor: pointer;
+}
+
+.menuinferior {
+    height: 421px;
+    width: 100%;
+    background: #F2F2F2;
+    padding-top: 30px;
+    padding-left: 126px;
+    padding-right: 126px;
+    box-sizing: border-box;
+}
+
+.tituloinferior {
+
+    margin-bottom: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+color: #232323;
+}
+
+.filtros {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 22px;
+}
+
+.todosmodelos {
+    width: 193px;
+    height: 34px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    color: #FCFCFC; }
+
+.filtrotshirt {
+    width: 81.01px;
+    height: 34px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FCFCFC;
+}
+
+.filtrocamiseta {
+    width: 111px;
+    height: 34px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FCFCFC;
+}
+
+.filtromanga {
+    width: auto;
+    height: 34px;
+    padding-left: 11px;
+    padding-right: 11px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FCFCFC;
+}
+
+.pedidos {
+    width: 100%;
+    gap: 18px;
+    height: auto;
+    overflow-x: auto;
+    display: flex;
+
+}
+
+.divpedido {
+    max-width: 215.93px;
+    height: 256.56px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #232323;
+    
+
+    
+}
+
+.divpedido img {
+    width: 192.7px;
+    height: 195.3px;
+}
+
+.titulopedidox {
+    
+    width: 139px;
+    height: auto;
+    
+   
+}
+
+.criador{
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #232323;
+}
+
+
+
+
+
+
+
